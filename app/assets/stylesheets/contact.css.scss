@@ -1,0 +1,38 @@
+div#contact_container{
+	margin: 75px 0 70px 0;
+	padding: 0;
+	line-height: 160%;
+}
+
+input[type="text"]{
+   font-family: inherit;
+   font-size: inherit;
+   color: #000;
+   width: 250px;
+}
+
+textarea{
+   font-family: inherit;
+   font-size: inherit;
+   color: #000;
+   width: 250px;
+   height: 150px;
+}
+
+.submit{
+	font-size: .9em;
+	font-family: inherit;
+	text-transform: lowercase;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	letter-spacing: .2em;
+	margin: 10px 0;
+}
+
+input.submit:hover{
+	cursor: pointer;
+	color: #ccc;
+	background-color: #f9f4f4;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}

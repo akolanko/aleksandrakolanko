@@ -1,0 +1,81 @@
+div#clothing_container{
+	width: 540px;
+	height: 450px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div#performances_container{
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div#sculpture_container{
+	width: 360px;
+	height: 270px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div#installations_container{
+	width: 540px;
+	height: 540px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div#advertisements_container{
+	width: 540px;
+	height: 540px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.gallery_thumbnail{
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	float: left;
+	opacity: 0.6;
+	transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
+div.performances_thumbnail{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	float: left;
+	opacity: 0.6;
+	transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
+.load{
+	z-index: 20;
+	background:url('snake.gif') no-repeat center;
+}
+
+div.gallery_thumbnail:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+div.performances_thumbnail:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+img.thumbnail{
+	height: 90px;
+}
+
+img.big_thumbnail{
+	height: 300px;
+}

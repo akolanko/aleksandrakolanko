@@ -1,0 +1,14 @@
+<div id="clothing_container">
+
+	<% for i in 1..30 %>
+		<%=link_to "/assets/clothing/clothing#{i}.jpg", rel: "clothing", class: "gallery" do %>
+			<div class="gallery_thumbnail">
+				<div class="load">
+
+					<%=image_tag "clothing/clothing#{i}_thumbnail.jpg", :id => "clothing#{i}_thumbnail", :class => "thumbnail" %>
+				</div>
+			</div>
+		<% end %>
+	<%end%>
+
+</div>
