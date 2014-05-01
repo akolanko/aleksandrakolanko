@@ -396,7 +396,7 @@ ul#slides li {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('sprite03.png');
+	background-image: url(<%= asset_data_uri 'sprite03.png' %>);
 }
 
 #fancybox-loading {
@@ -414,7 +414,7 @@ ul#slides li {
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('loading.gif') center center no-repeat;
+	background: url(<%= asset_data_uri 'loading.gif' %>) center center no-repeat;
 }
 
 .fancybox-close {
@@ -434,7 +434,7 @@ ul#slides li {
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url('blank.gif'); /* helps IE */
+	background: transparent url(<%= asset_data_uri 'blank.gif' %>); /* helps IE */
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -583,12 +583,12 @@ ul#slides li {
 	   only screen and (min-device-pixel-ratio: 1.5){
 
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url('sprite03.png');
+		background-image: url(<%= asset_data_uri 'sprite03.png' %>);
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 
 	#fancybox-loading div {
-		background-image: url('loading.gif');
+		background-image: url(<%= asset_data_uri 'loading.gif' %>);
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }

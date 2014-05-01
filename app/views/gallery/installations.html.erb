@@ -1,7 +1,7 @@
 <div id="installations_container">
 
 	<% for i in 1..36 %>
-		<%=link_to "/assets/installations/installations#{i}.jpg", rel: "installations", class: "gallery" do %>
+		<%=link_to asset_path("installations/installations#{i}.jpg"), rel: "installations", class: "gallery" do %>
 			<div class="gallery_thumbnail">
 				<div class="load">
 					<%=image_tag "installations/installations#{i}_thumbnail.jpg", :id => "installations#{i}_thumbnail", :class => "thumbnail" %>
