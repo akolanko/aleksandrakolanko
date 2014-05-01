@@ -1,0 +1,604 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+
+ */
+
+
+body{
+	font-family: "SackersGothicStd-Medium" "Helvetica", "Arial", sans-serif;
+	text-transform: lowercase;
+	color: #000;
+	font-size: 14px;
+}
+
+ .container{
+ 	width: 960px;
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	background-color: #fff;
+ 	position: relative;
+ }
+
+ #header{
+ 	height: 100px;
+ 	padding: 0;
+ 	margin: 40px 0;
+ 	text-align: center;
+ }
+
+ h1{
+ 	height: 40px;
+ 	padding: 0;
+ 	margin: 0 auto 35px;
+ 	letter-spacing: .1em;
+ 	font-size: 40px;
+ 	text-transform: uppercase;
+ }
+
+ h1 a:link{
+ 	text-decoration: none;
+ 	color: #000;
+ }
+
+  h1 a:visited{
+ 	color: #000;
+ }
+
+  h1 a:hover{
+ 	color: #000;
+ 	cursor: pointer;
+ }
+
+ #nav{
+ 	width: 960px;
+ 	height: 30px;
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	line-height: 24px;
+ }
+
+ ul.menu{
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ ul.menu li.menu_item{
+ 	display: inline;
+ 	padding: 16px;
+ }
+
+ a:link{
+ 	text-decoration: none;
+ 	color: #000;
+ }
+
+ a:visited{
+ 	color: #000;
+ }
+
+ a:hover{
+ 	color: #ccc;
+ 	cursor: pointer;
+ }
+
+#content{
+	margin: 60px 0 0 0;
+	padding: 0;
+}
+
+.flash{
+	position: absolute;
+	top: 130px;
+	z-index: 100;
+	color: #ccc;
+}
+
+#footer{
+	margin: 40px auto;
+	padding: 10px 0 40px;
+	width: 960px;
+}
+
+.left{
+	padding-left: 40px;
+	float: left;
+	width: 440px;
+}
+
+.right{
+	padding-right: 40px;
+	float: right;
+	width: 440px;
+	text-align: right;
+}
+
+.numbers{
+	font-size: .9em;
+}
+/**
+ * @license
+ * MyFonts Webfont Build ID 2804229, 2014-04-30T20:53:25-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Sackers Gothic Std Medium by Monotype 
+ * URL: http://www.myfonts.com/fonts/mti/sackers-gothic/std-medium/
+ * Copyright: Copyright 1994, 2003 Monotype Imaging, Inc. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2804229
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@import url("//hello.myfonts.net/count/2aca05");
+
+  
+@font-face {font-family: 'SackersGothicStd-Medium';src: url('webfonts/2ACA05_0_0.eot');src: url('webfonts/2ACA05_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2ACA05_0_0.woff') format('woff'),url('webfonts/2ACA05_0_0.ttf') format('truetype');}
+ 
+/* line 1, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/contact.css.scss */
+div#contact_container {
+  margin: 75px 0 70px 0;
+  padding: 0;
+  line-height: 160%;
+}
+
+/* line 7, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/contact.css.scss */
+input[type="text"] {
+  font-family: inherit;
+  font-size: inherit;
+  color: #000;
+  width: 250px;
+}
+
+/* line 14, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/contact.css.scss */
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: #000;
+  width: 250px;
+  height: 150px;
+}
+
+/* line 22, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/contact.css.scss */
+.submit {
+  font-size: .9em;
+  font-family: inherit;
+  text-transform: lowercase;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  letter-spacing: .2em;
+  margin: 10px 0;
+}
+
+/* line 32, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/contact.css.scss */
+input.submit:hover {
+  cursor: pointer;
+  color: #ccc;
+  background-color: #f9f4f4;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+/* line 1, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div#clothing_container {
+  width: 540px;
+  height: 450px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 8, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div#performances_container {
+  width: 900px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 15, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div#sculpture_container {
+  width: 360px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 22, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div#installations_container {
+  width: 540px;
+  height: 540px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 29, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div#advertisements_container {
+  width: 540px;
+  height: 540px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 36, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div.gallery_thumbnail {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  float: left;
+  opacity: 0.6;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+}
+
+/* line 48, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div.performances_thumbnail {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  float: left;
+  opacity: 0.6;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+}
+
+/* line 60, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+.load {
+  z-index: 20;
+  background: url("snake.gif") no-repeat center;
+}
+
+/* line 65, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div.gallery_thumbnail:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* line 70, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+div.performances_thumbnail:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* line 75, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+img.thumbnail {
+  height: 90px;
+}
+
+/* line 79, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/gallery.css.scss */
+img.big_thumbnail {
+  height: 300px;
+}
+/* line 5, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/home.css.scss */
+#slideshow_container {
+  position: relative;
+  z-index: 5;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  width: 100%;
+  height: 480px;
+  overflow: scroll;
+}
+
+/* line 15, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/home.css.scss */
+img.homeimg {
+  width: 720px;
+  padding: 0;
+  margin: 0 120px;
+}
+
+/* line 21, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/home.css.scss */
+ul#slides {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 27, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/home.css.scss */
+ul#slides li {
+  margin: 0;
+}
+/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	vertical-align: top;
+}
+
+.fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8020;
+}
+
+.fancybox-skin {
+	position: relative;
+	background: #fff;
+	color: #fff;
+	text-shadow: none;
+}
+
+.fancybox-opened {
+	z-index: 8030;
+}
+
+.fancybox-opened .fancybox-skin {
+
+}
+
+.fancybox-outer, .fancybox-inner {
+	position: relative;
+}
+
+.fancybox-inner {
+	overflow: hidden;
+}
+
+.fancybox-type-iframe .fancybox-inner {
+	-webkit-overflow-scrolling: touch;
+}
+
+.fancybox-error {
+	color: #444;
+	font: 14px/20px "Sackers Gothic Std","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 15px;
+	white-space: nowrap;
+}
+
+.fancybox-image, .fancybox-iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.fancybox-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+	background-image: url('sprite03.png');
+}
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -22px;
+	margin-left: -22px;
+	background-position: 0 -108px;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 8060;
+}
+
+#fancybox-loading div {
+	width: 44px;
+	height: 44px;
+	background: url('loading.gif') center center no-repeat;
+}
+
+.fancybox-close {
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;
+}
+
+.fancybox-nav {
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	background: transparent url('blank.gif'); /* helps IE */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	z-index: 8040;
+}
+
+.fancybox-prev {
+	left: 0;
+}
+
+.fancybox-next {
+	right: 0;
+}
+
+.fancybox-nav span {
+	position: absolute;
+	top: 50%;
+	width: 36px;
+	height: 34px;
+	margin-top: -18px;
+	cursor: pointer;
+	z-index: 8040;
+	visibility: hidden;
+}
+
+.fancybox-prev span {
+	left: 10px;
+	background-position: 0 -36px;
+}
+
+.fancybox-next span {
+	right: 10px;
+	background-position: 0 -72px;
+}
+
+.fancybox-nav:hover span {
+	visibility: visible;
+}
+
+.fancybox-tmp {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	visibility: hidden;
+	max-width: 99999px;
+	max-height: 99999px;
+	overflow: visible !important;
+}
+
+/* Overlay helper */
+
+.fancybox-lock {
+    overflow: hidden !important;
+    width: auto;
+}
+
+.fancybox-lock body {
+    overflow: hidden !important;
+}
+
+.fancybox-lock-test {
+    overflow-y: hidden !important;
+}
+
+.fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: none;
+	z-index: 8010;
+	background: url('fancybox_overlay.png');
+}
+
+.fancybox-overlay-fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.fancybox-lock .fancybox-overlay {
+	overflow: auto;
+	overflow-y: scroll;
+}
+
+/* Title helper */
+
+.fancybox-title {
+	visibility: hidden;
+	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: relative;
+	text-shadow: none;
+	z-index: 8050;
+}
+
+.fancybox-opened .fancybox-title {
+	visibility: visible;
+}
+
+.fancybox-title-float-wrap {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-bottom: -35px;
+	z-index: 8050;
+	text-align: center;
+}
+
+.fancybox-title-float-wrap .child {
+	display: inline-block;
+	margin-right: -100%;
+	padding: 2px 20px;
+	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(0, 0, 0, 0.8);
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	text-shadow: 0 1px 2px #222;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.fancybox-title-outside-wrap {
+	position: relative;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.fancybox-title-inside-wrap {
+	padding-top: 10px;
+}
+
+.fancybox-title-over-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	background: #000;
+	background: rgba(0, 0, 0, .8);
+}
+
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	   only screen and (min--moz-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5){
+
+	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+		background-image: url('sprite03.png');
+		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+	}
+
+	#fancybox-loading div {
+		background-image: url('loading.gif');
+		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
+	}
+}
+/* line 1, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/text.css.scss */
+div#about_container {
+  margin: 100px 0 250px 0;
+  padding: 0;
+}
+
+/* line 6, /Users/Leksi/Documents/Rails/Final Project/aleksandrakolanko/app/assets/stylesheets/text.css.scss */
+.body_text {
+  font-size: 1.2em;
+}
