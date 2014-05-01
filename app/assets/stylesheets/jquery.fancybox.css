@@ -179,7 +179,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('fancybox_overlay.png');
+	background: url(<%= asset_data_uri 'fancybox_overlay.png' %>);
 }
 
 .fancybox-overlay-fixed {

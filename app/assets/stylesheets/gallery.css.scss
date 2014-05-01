@@ -59,7 +59,7 @@ div.performances_thumbnail{
 
 .load{
 	z-index: 20;
-	background:url(<%= asset_data_uri 'snake.gif' %>) no-repeat center;
+	background:url('snake.gif') no-repeat center;
 }
 
 div.gallery_thumbnail:hover{
