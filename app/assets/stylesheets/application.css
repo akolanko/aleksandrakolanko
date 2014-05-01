@@ -11,10 +11,11 @@
  *= require_self
  *= require_tree .
  *= require jquery.fancybox.css
+ *= require MyFontsWebfontsKit.css
  */
 
 body{
-	font-family: "Sackers Gothic Std" "Helvetica", "Arial", sans-serif;
+	font-family: "SackersGothicStd-Medium" "Helvetica", "Arial", sans-serif;
 	text-transform: lowercase;
 	color: #000;
 	font-size: 14px;
@@ -36,7 +37,6 @@ body{
  }
 
  h1{
- 	width: 960px;
  	height: 40px;
  	padding: 0;
  	margin: 0 auto 35px;
