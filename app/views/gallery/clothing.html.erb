@@ -1,7 +1,7 @@
 <div id="clothing_container">
 
 	<% for i in 1..30 %>
-		<%=link_to "/assets/clothing/clothing#{i}.jpg", rel: "clothing", class: "gallery" do %>
+		<%=link_to asset_path("clothing/clothing#{i}.jpg"), rel: "clothing", class: "gallery" do %>
 			<div class="gallery_thumbnail">
 				<div class="load">
 
